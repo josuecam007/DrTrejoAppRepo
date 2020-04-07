@@ -7,7 +7,7 @@ const App = () => (
   <BrowserRouter>
     <Layout>
       <Switch>
-        <Route exact path='/' component={Contenido} /> 
+        <Route exact path='/' component={Contenido} />
       </Switch>
     </Layout>
   </BrowserRouter>
