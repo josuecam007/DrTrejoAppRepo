@@ -1,0 +1,28 @@
+
+// body {
+//     //overflow: hidden;
+// }
+
+.layout-containter {
+    // display: grid;
+    // grid-template-areas: "header"
+    //                      "main";
+    // grid-template-columns: auto;
+    // grid-template-rows: 1fr;
+
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+
+}
+
+// .Header-main {
+//     grid-area: header;
+// }
+
+// .grid-contenido {
+//     grid-area: main;
+// }
+

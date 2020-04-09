@@ -1,9 +1,9 @@
 import React from 'react';
 import logo from '../assets/static/logoDrTrejo.png';
-import '../assets/styles/components/Header.scss';
+import '../assets/styles/components/HeaderNavMenu.scss';
 //import 'jquery';
 
-const Header = () => {
+const HeaderNavMenu = () => {
   $(function() {
     $(".toggle").on("click", function() {
         if ($(".item").hasClass("active")) {
@@ -52,4 +52,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HeaderNavMenu;
