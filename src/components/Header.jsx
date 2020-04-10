@@ -21,10 +21,10 @@ const Header = () => {
         <ul className='menu'>
           <li className='logo'>
             <img src={logo} alt='logo-doctor-jose-trejo' />
-            <a href='#'>DR.  JOSÉ TREJO BELMONTE</a>
+            <a href='#Inicio'>DR.  JOSÉ TREJO BELMONTE</a>
           </li>
           <li className='item'>
-            <a href='#'>Inicio</a>
+            <a href={`#${child.get('Inicio')}`}>{child.get('Inicio')}</a>
           </li>
           <li className='item'>
             <a href='#'>Acerca</a>

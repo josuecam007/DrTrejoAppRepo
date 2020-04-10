@@ -1,6 +1,6 @@
 import React from 'react';
 import '../assets/styles/components/Contenido.scss';
-import inicioImage from '../assets/static/man-running-during-daytime-desktop.jpg';
+import inicioImage from '../assets/static/computer-desk-laptop-stethoscope-big.jpg';
 import logoMarca from '../assets/static/logo1@2x.png';
 import logoTextoMarca from '../assets/static/textoMarca.png';
 import drjose from '../assets/static/drjose.jpg';
@@ -15,12 +15,17 @@ const Contenido = () => {
       <section id='Inicio' className='inicio-area'>
         <figure className='change-ratio'>
           <img src={inicioImage} alt='bannerInicio' className='banner-area' />
+          {/* <img src={logoMarca} alt='logoMarcaCentered' className='logo-centered' /> */}
+          <div className='jose-texto-centered'>
+            DR. JOSÉ TREJO BELMONTE
+          </div>
+          <div className='esp-texto-centered'>
+            Traumatología y Ortopedia
+          </div>
+          <div className='micro-texto-centered'>
+            Lesiones deportivas Y Microcirugía artroscópica
+          </div>
         </figure>
-        <div className='marca'>
-          {/* <img src={logoMarca} alt='logoMarca' className='logoMarca' />
-          <div className='textoMarca'>DR. JOSÉ TREJO BELMONTE</div> */}
-          {/* <img src={logoTextoMarca} alt='logoMarca' className='logoTextoMarca' /> */}
-        </div>
       </section>
 
       <section id='Acerca' className='acerca-area'>

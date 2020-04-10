@@ -24,10 +24,10 @@ const HeaderNavMenu = () => {
             <a href='#'>DR.  JOSÉ TREJO BELMONTE</a>
           </li>
           <li className='item'>
-            <a href='#'>Inicio</a>
+            <a href='#Inicio'>Inicio</a>
           </li>
           <li className='item'>
-            <a href='#'>Acerca</a>
+            <a href='#Acerca'>Acerca</a>
           </li>
           <li className='item'>
             <a href='#'>Servicios</a>
