@@ -3,7 +3,7 @@
 //     //overflow: hidden;
 // }
 
-.layout-containter {
+.layout-container {
     // display: grid;
     // grid-template-areas: "header"
     //                      "main";
@@ -15,6 +15,13 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
+}
+
+.contenido-container__grid-colums-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+    overflow: hidden;
 }
 
 // .Header-main {
