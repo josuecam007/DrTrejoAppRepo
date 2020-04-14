@@ -4,17 +4,24 @@ import '../assets/styles/components/HeaderNavMenu.scss';
 //import 'jquery';
 
 const HeaderNavMenu = () => {
-  $(function() {
-    $(".toggle").on("click", function() {
-        if ($(".item").hasClass("active")) {
-            $(".item").removeClass("active");
-            $(this).find("a").html("<i class='fas fa-bars'></i>");
-        } else {
-            $(".item").addClass("active");
-            $(this).find("a").html("<i class='fas fa-times'></i>");
-        }
+  $(function () {
+    $(".toggle").on("click", function () {
+      if ($(".item").hasClass("active")) {
+        $(".item").removeClass("active");
+        $(this).find("a").html("<i class='fas fa-bars'></i>");
+      } else {
+        $(".item").addClass("active");
+        $(this).find("a").html("<i class='fas fa-times'></i>");
+      }
     });
-});
+  });
+
+  $(function () {
+    $(".item").on("click", function () {
+      $(".toggle").trigger("click");
+    });
+  });
+
   return (
     <header className='Header-main'>
       <nav>
@@ -28,6 +35,9 @@ const HeaderNavMenu = () => {
           </li>
           <li className='item'>
             <a href='#Acerca'>Acerca</a>
+          </li>
+          <li className='item'>
+            <a href='#Experiencia'>Experiencia</a>
           </li>
           <li className='item'>
             <a href='#'>Servicios</a>

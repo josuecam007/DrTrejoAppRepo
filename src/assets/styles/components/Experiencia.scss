@@ -1,0 +1,372 @@
+//-Timeline Specific Mixins
+.wrapper{
+	
+	//color: white;
+	text-align: center;
+
+	margin: 2px auto;
+    padding: .5;
+	max-width: 1000px;
+
+	
+    & dt {
+        font-size: 20px;
+    }
+
+    & dl {
+        font-size: 19px;
+    }
+	
+}
+
+//- Indicator style
+@mixin timeline-indicator {
+	content: "";
+	display: inline-block;
+	width: .5em;
+	height: .5em;
+	position: absolute;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+}
+
+// - Timeline entry
+// - Produces the following:
+/* - &:nth-child(1) {
+			 grid-area: entry1;
+		 }
+   - useful timesaver if there is a lengthy list
+*/ 
+@mixin timeline-entry {
+	@for $i from 1 through 10 {
+		&:nth-child(#{$i}) {
+			grid-area: entry#{$i};
+		}
+	}
+}
+
+//-var
+$charcoal: #424242;
+$seagull: #23B3DA;
+$gondola: #f3f3;
+$dark-pink: #707070; 
+
+// $secondary-font-family: 'PT Sans Narrow', sans-serif;
+$timeline-title-background-color: red;
+$panel-background-color: green;
+$timeline-indicator-color: yellow;
+//$subheading-font-family: gray;
+$font-weight-light: black;
+$alto: #dddddd;
+$white: white;
+
+
+//- Variables
+$timeline-indicator-color: $seagull;
+$timeline-indicator-border:  1px solid $gondola;
+$timeline-title-background-color: $dark-pink;
+
+
+//- Mobile First Timeline - stacked for small viewports and browsers that don't support grid
+.timeline {
+	line-height: 1.5em;
+	font-size: 14px;
+	transition: all .4s ease;
+	position: relative;
+	counter-reset: section;
+	
+	//- indicator line
+	&:before {
+		content:"";
+		width: 8px;
+		height: 100%;
+		background: $timeline-indicator-color;
+		position: absolute;
+		top: 0;
+		left: -3.313em;
+		border-radius: 40px 40px;
+	}
+	display: grid;
+			grid-gap: 4em;
+			grid-template-areas: 	".  entry1"
+									"entry2 ."
+									". entry3"
+									"entry4 ."
+									". entry5"
+									"entry6 ."
+									". entry7"
+									"entry8 ."
+									". entry9"
+									"entry10 .";
+			//- Timeline line
+			&:before {
+				left: 50%;
+				align-items: center;
+			}
+}
+
+.timeline--entry {
+	position: relative;
+	background-color: $panel-background-color;
+
+	&__title {
+		color: white;
+		background-color: $timeline-title-background-color;
+		//font-family: $subheading-font-family;
+		font-weight: $font-weight-light;
+		font-size: 1rem;
+		padding: 1em;
+		&:before {
+			@include timeline-indicator;
+			left: -1em;
+			border-right: 10px solid $dark-pink; 
+			
+		}
+	}
+	
+	&__detail {
+		background-color: $alto;
+		padding: 1em;
+		margin: 0;
+	}
+
+	@include timeline-entry;
+			
+				//- odd timeline entry
+				&:nth-of-type(odd){
+					//- Default position the number indicator mobile
+					&:before {
+						left: -2.8em;
+						//left: 103%;
+					}
+				}
+				
+			 //- even timeline entry	
+				&:nth-of-type(even){
+					&:not(:nth-of-type(odd)) {
+						//-right pointing arrow indicator
+						.timeline--entry__title {
+							&:before {
+								left: 100% ;
+								border-left: 10px solid $dark-pink;
+								border-right: 0;
+							}
+						}
+					}
+					//- Position the number indicator
+					&:before {
+						left: 103%;
+					}
+				}
+
+	
+			
+	//- number indicator
+	&:before {
+		content: "";
+		//font-family: $secondary-font-family;
+		color: $white;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 2em;
+		height: 2em;
+		background-color: $seagull;
+		border: .2em solid white;
+		border-radius: 50%;
+		position: absolute;
+		counter-increment: section;
+  	content: counter(section);
+		text-shadow: 0 1px 0 $charcoal;
+		left: -4.5em;
+	}
+}
+
+
+@media screen and (min-width: 768px)  {
+
+	.wrapper{
+	
+		//color: white;
+		text-align: center;
+	
+		margin: 3.125em auto;
+		padding: 1em 5em 1em; //
+		max-width: 1000px;
+	
+		
+		& dt {
+			font-size: 20px;
+		}
+	
+		& dl {
+			font-size: 19px;
+		}
+		
+	}
+	
+	//- Indicator style
+	@mixin timeline-indicator {
+		content: "";
+		display: inline-block;
+		width: .5em;
+		height: .5em;
+		position: absolute;
+		border-top: 5px solid transparent;
+		border-bottom: 5px solid transparent;
+	}
+	
+	// - Timeline entry
+	// - Produces the following:
+	/* - &:nth-child(1) {
+				 grid-area: entry1;
+			 }
+	   - useful timesaver if there is a lengthy list
+	*/ 
+	@mixin timeline-entry {
+		@for $i from 1 through 10 {
+			&:nth-child(#{$i}) {
+				grid-area: entry#{$i};
+			}
+		}
+	}
+	
+	//-var
+	$charcoal: #424242;
+	$seagull: #23B3DA;
+	$gondola: #f3f3;
+	$dark-pink: #707070; 
+	
+	// $secondary-font-family: 'PT Sans Narrow', sans-serif;
+	$timeline-title-background-color: red;
+	$panel-background-color: green;
+	$timeline-indicator-color: yellow;
+	//$subheading-font-family: gray;
+	$font-weight-light: black;
+	$alto: #dddddd;
+	$white: white;
+	
+	
+	//- Variables
+	$timeline-indicator-color: $seagull;
+	$timeline-indicator-border:  1px solid $gondola;
+	$timeline-title-background-color: $dark-pink;
+	
+	
+	//- Mobile First Timeline - stacked for small viewports and browsers that don't support grid
+	.timeline {
+		line-height: 1.5em;
+		font-size: 14px;
+		transition: all .4s ease;
+		position: relative;
+		counter-reset: section;
+		
+		//- indicator line
+		&:before {
+			content:"";
+			width: 10px;
+			height: 100%;
+			background: $timeline-indicator-color;
+			position: absolute;
+			top: -17px;
+			left: -3.313em;
+			border-radius: 40px 40px;
+		}
+		display: grid;
+				grid-gap: 4em;
+				grid-template-areas: 	".  entry1"
+										"entry2 ."
+										". entry3"
+										"entry4 ."
+										". entry5"
+										"entry6 ."
+										". entry7"
+										"entry8 ."
+										". entry9"
+										"entry10 .";
+				//- Timeline line
+				&:before {
+					left: 49.8%;
+					align-items: center;
+				}
+	}
+	
+	.timeline--entry {
+		position: relative;
+		background-color: $panel-background-color;
+	
+		&__title {
+			color: white;
+			background-color: $timeline-title-background-color;
+			//font-family: $subheading-font-family;
+			font-weight: $font-weight-light;
+			font-size: 1rem;
+			padding: 1em;
+			&:before {
+				@include timeline-indicator;
+				left: -1em;
+				border-right: 10px solid $dark-pink; 
+				
+			}
+		}
+		
+		&__detail {
+			background-color: $alto;
+			padding: 1em;
+			margin: 0;
+		}
+	
+		@include timeline-entry;
+				
+					//- odd timeline entry
+					&:nth-of-type(odd){
+						//- Default position the number indicator mobile
+						&:before {
+							left: -3.1em;
+						}
+					}
+					
+				 //- even timeline entry	
+					&:nth-of-type(even){
+						&:not(:nth-of-type(odd)) {
+							//-right pointing arrow indicator
+							.timeline--entry__title {
+								&:before {
+									left: 100% ;
+									border-left: 10px solid $dark-pink;
+									border-right: 0;
+								}
+							}
+						}
+						//- Position the number indicator
+						&:before {
+							left: 101%;
+						}
+					}
+	
+		
+				
+		//- number indicator
+		&:before {
+			content: "";
+			//font-family: $secondary-font-family;
+			color: $white;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 2.5em; //
+			height: 2.5em; //
+			background-color: $seagull;
+			border: .2em solid white;
+			border-radius: 50%;
+			position: absolute;
+			counter-increment: section;
+		  content: counter(section);
+			text-shadow: 0 1px 0 $charcoal;
+			left: -4.5em;
+		}
+	}
+
+
+}
+

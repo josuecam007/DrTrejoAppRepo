@@ -4,6 +4,7 @@ import inicioImage from '../assets/static/computer-desk-laptop-stethoscope-big.j
 //import logoMarca from '../assets/static/logo1@2x.png';
 import drjose from '../assets/static/drjose.jpg';
 import Formacion from './Formacion';
+import Experiencia from './Experiencia';
 
 
 const Contenido = () => {
@@ -42,6 +43,9 @@ const Contenido = () => {
       </section>
       <section>
         <Formacion />
+      </section>
+      <section className='experiencia-section' id='Experiencia'>
+        <Experiencia />
       </section>
     </div>
   );

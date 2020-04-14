@@ -5,6 +5,9 @@
     background-color: #27496D ;
     //z-index: 99; /*con esto el header fijo queda enfrente de lo contenido*/
     //overflow: hidden;
+    & li {
+      font-size: 16px;
+    }
   }
 
   
