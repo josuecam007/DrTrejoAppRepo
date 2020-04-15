@@ -13,7 +13,7 @@
     font-family: 'PT Sans Narrow', sans-serif;
     color: #27496D;
     & h1 {
-        font-size: calc(22px + 1vw);
+        font-size: calc(19px + 1vw);
         margin-top: 5px;
         margin-bottom: 5px;
     }
@@ -22,13 +22,6 @@
         font-size: calc(18px + 1vw);
     }    
 
-    & dt {
-        font-size: 20px;
-    }
-
-    & dl {
-        font-size: 19px;
-    }
 }
 
 .contenido-container__grid-colums-container {

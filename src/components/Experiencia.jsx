@@ -17,7 +17,6 @@ const Experiencia = () => {
         </dl>
         <dl className='timeline--entry'>
           <dt className='timeline--entry__title'>
-            {' '}
             Instituto Nacional de Rehabilitación LGII
           </dt>
           <dd className='timeline--entry__detail'>
@@ -26,7 +25,7 @@ const Experiencia = () => {
           </dd>
         </dl>
         <dl className='timeline--entry'>
-          <dt className='timeline--entry__title'>hospital Zambrano Hellion</dt>
+          <dt className='timeline--entry__title'>Hospital Zambrano Hellion</dt>
           <dd className='timeline--entry__detail'>
             Médico de la alta especialidad en Cirugía articular Tecnológico de
             Monterrey hospital Zambrano Hellion del 1 de marzo del 2017 al 28 de
@@ -42,7 +41,7 @@ const Experiencia = () => {
         </dl>
         <dl className='timeline--entry'>
           <dt className='timeline--entry__title'>
-            Centro médico ISSEMYM Ecatepec
+            Centro Médico ISSEMYM Ecatepec
           </dt>
           <dd className='timeline--entry__detail'>
             Médico adscrito ortopedista en centro médico ISSEMYM Ecatepec desde
@@ -51,7 +50,7 @@ const Experiencia = () => {
         </dl>
         <dl className='timeline--entry'>
           <dt className='timeline--entry__title'>
-            3ra división profesional Halcones negros FC
+            3ra División Profesional Halcones negros FC
           </dt>
           <dd className='timeline--entry__detail'>
             Jefe médico del equipo de futbol de 3ra división profesional
@@ -76,7 +75,7 @@ const Experiencia = () => {
         </dl>
         <dl className='timeline--entry'>
           <dt className='timeline--entry__title'>
-            club deportivo Guadalajara sub 20
+            Club deportivo Guadalajara sub 20
           </dt>
           <dd className='timeline--entry__detail'>
             Médico titular del equipo club deportivo Guadalajara sub 20 liga MX

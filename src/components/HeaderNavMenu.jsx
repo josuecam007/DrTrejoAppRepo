@@ -37,7 +37,13 @@ const HeaderNavMenu = () => {
             <a href='#Acerca'>Acerca</a>
           </li>
           <li className='item'>
+            <a href='#Formacion'>Formación</a>
+          </li>
+          <li className='item'>
             <a href='#Experiencia'>Experiencia</a>
+          </li>
+          <li className='item'>
+            <a href='#Habilidades'>Conocimientos</a>
           </li>
           <li className='item'>
             <a href='#'>Servicios</a>
