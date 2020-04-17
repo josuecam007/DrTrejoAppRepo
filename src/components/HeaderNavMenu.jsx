@@ -52,11 +52,11 @@ const HeaderNavMenu = () => {
             <a href='#'>Seguros</a>
           </li>
           <li className='item button'>
-            <a href='#'>Citas</a>
+            <a href='#Citas'>Citas</a>
           </li>
-          <li className='item button secondary'>
+          {/* <li className='item button secondary'>
             <a href='#'>Contacto</a>
-          </li>
+          </li> */}
           <li className='toggle'>
             <a href='#'>
               <i className='fas fa-bars'></i>

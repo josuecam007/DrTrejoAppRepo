@@ -8,6 +8,8 @@
     & li {
       font-size: 16px;
     }
+    //border-bottom: solid 4px #98ca3f;
+    border-bottom: solid 4px #22D8FF
   }
 
   
@@ -58,7 +60,8 @@
     font-size: 16px;
   }
   .button.secondary {
-    border-bottom: 1px #27496D solid;
+    // border-bottom: 1px #27496D solid;
+    border-bottom: 1px #22D8FF solid;
   }
 
   /* Mobile menu */
@@ -112,7 +115,8 @@
     }
     .button a {
         padding: 7.5px 15px;
-        background: teal;
+        //background: teal;
+        background: #23B3DA;
         border: 1px #006d6d solid;
     }
     .button.secondary a {

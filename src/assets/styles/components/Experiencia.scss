@@ -15,7 +15,11 @@
 
     & dl {
         font-size: 19px;
-    }
+	}
+	
+	h1 {
+		padding: 30px;
+	}
 	
 }
 
@@ -108,6 +112,8 @@ $timeline-title-background-color: $dark-pink;
 .timeline--entry {
 	position: relative;
 	background-color: $panel-background-color;
+	border-bottom: solid 4px #98ca3f;
+	border-radius: 10px;
 
 	&__title {
 		color: white;

@@ -6,6 +6,7 @@ import drjose from '../assets/static/drjose.jpg';
 import Formacion from './Formacion';
 import Experiencia from './Experiencia';
 import Habilidades from './Habilidades';
+import Footer from './Footer';
 
 
 const Contenido = () => {
@@ -46,15 +47,22 @@ const Contenido = () => {
           <img src={drjose} alt='Foto-dr-jose' className='img-card' />
         </div>
       </section>
+
       <section id='Formacion'>
         <Formacion />
       </section>
+
       <section className='experiencia-section' id='Experiencia'>
         <Experiencia />
       </section>
+
       <section id='Habilidades'>
         <Habilidades />
       </section>
+
+      <footer id='Citas'>
+        <Footer />
+      </footer>
     </div>
   );
 };
