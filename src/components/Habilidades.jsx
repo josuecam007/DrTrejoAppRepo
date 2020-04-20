@@ -13,7 +13,7 @@ const Habilidades = () => {
           Diplomado presencial en medicina del deporte, ejercicio y actividad física 2016 Universidad Nacional Autónoma de México (UNAM)
         </li>
         <li>
-          AO curso de trauma - principios del manejo conservador y quirurgco de fracturas, Julio 13-16 del 2016
+          AO curso de trauma - principios del manejo conservador y quirurgico de fracturas, Julio 13-16 del 2016
         </li>
         <li>
           Advanced Trauma Life Support  American College of Surgeons (ATLS) - Centro de capacitación Dalinde (CECADA) aprobado en Agosto 2 y 3 de 2012

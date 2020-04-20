@@ -1,12 +1,19 @@
 import React from 'react';
 import '../assets/styles/components/Contenido.scss';
-import inicioImage from '../assets/static/computer-desk-laptop-stethoscope-big.jpg';
+//import inicioImage from '../assets/static/computer-desk-laptop-stethoscope-big.jpg';
+//import inicioImage from '../assets/static/stock-vector-joint-treatment-abstract-background-with-beautiful-glow-and-wave-at-the-background-679786771.jpg';
+//import inicioImage from '../assets/static/stock-photo-anatomical-model-of-knee-displaying-progression-of-knee-osteoarthritis-which-ending-up-in-a-total-1568476156.jpg';
+//import inicioImage from '../assets/static/stock-photo-artificial-human-knee-joint-model-in-medical-office-1126824578.jpg';
+import inicioImage from '../assets/static/stock-photo-model-of-knee-joint-showing-multiple-stages-of-knee-osteoarthritis-and-total-knee-replacement-on-1439018837.jpg';
+// import inicioImage from '../assets/static/stock-photo-model-of-knee-joint-showing-multiple-stages-of-knee-osteoarthritis-and-total-knee-replacement-on-1318269503.jpg';
+
 // import fondoCollageJose from '../assets/static/fondo_collage_jose.png';
 import drjose from '../assets/static/drjose.jpg';
 import Formacion from './Formacion';
 import Experiencia from './Experiencia';
 import Habilidades from './Habilidades';
 import Footer from './Footer';
+import Servicios from './Servicios';
 
 
 const Contenido = () => {
@@ -58,6 +65,10 @@ const Contenido = () => {
 
       <section id='Habilidades'>
         <Habilidades />
+      </section>
+
+      <section id='Servicios'>
+        <Servicios />
       </section>
 
       <footer id='Citas'>
