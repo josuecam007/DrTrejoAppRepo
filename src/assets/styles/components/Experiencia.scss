@@ -10,11 +10,11 @@
 
 	
     & dt {
-        font-size: 20px;
+        font-size: calc(17px + 1vw);
     }
 
     & dl {
-        font-size: 19px;
+        font-size: calc(15px + 1vw);
 	}
 	
 	h1 {
@@ -202,11 +202,11 @@ $timeline-title-background-color: $dark-pink;
 	
 		
 		& dt {
-			font-size: 20px;
+			font-size: calc(17px + 1vw);
 		}
 	
 		& dl {
-			font-size: 19px;
+			font-size: calc(15px + 1vw);
 		}
 		
 	}

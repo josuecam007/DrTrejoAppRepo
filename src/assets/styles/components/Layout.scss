@@ -18,6 +18,12 @@
         margin-bottom: 5px;
     }
 
+    & h2 {
+        font-size: calc(15px + 1vw);
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
     & p {
         font-size: calc(16px + 1vw);
     }    
@@ -27,7 +33,7 @@
 .contenido-container__grid-colums-container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 3fr;
+    // grid-template-rows: 3fr;
     overflow: hidden;
 }
 
