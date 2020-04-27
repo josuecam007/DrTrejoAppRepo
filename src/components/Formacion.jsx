@@ -1,11 +1,11 @@
 import React from 'react';
 import '../assets/styles/components/Formacion.scss';
-import logoTecMty from '../assets/static/tec_monterrey.png';
-import logoINR from '../assets/static/logo_inr.png';
-import logoUNAM from '../assets/static/logo_unam.png';
-import logoCMOT from '../assets/static/logo-cmot-nav.png';
-import logoAMECRA from '../assets/static/amecra-logo.png';
-import logoChivas from '../assets/static/logo_chivas.png';
+import logoTecMty from '../assets/static/formacion/tec_monterrey.png';
+import logoINR from '../assets/static/formacion/logo_inr.png';
+import logoUNAM from '../assets/static/formacion/logo_unam.png';
+import logoCMOT from '../assets/static/formacion/logo-cmot-nav.png';
+import logoAMECRA from '../assets/static/formacion/amecra-logo.png';
+import logoChivas from '../assets/static/formacion/logo_chivas.png';
 
 const Formacion = () => {
   return (

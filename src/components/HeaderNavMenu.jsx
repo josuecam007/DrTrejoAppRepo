@@ -1,6 +1,7 @@
 import React from 'react';
-import logo from '../assets/static/logoDrTrejo.png';
+import logo from '../assets/static/header/logoDrTrejo.png';
 import '../assets/styles/components/HeaderNavMenu.scss';
+import BurguerButton from './BurguerButton';
 //import 'jquery';
 
 const HeaderNavMenu = () => {
@@ -8,23 +9,25 @@ const HeaderNavMenu = () => {
     $(".toggle").on("click", function () {
       if ($(".item").hasClass("active")) {
         $(".item").removeClass("active");
-        $(this).find("a").html("<i class='fas fa-bars'></i>");
+        $(".item").removeClass("menu2");
+        //$(this).find("a").html("<i class='fas fa-bars'></i>");
       } else {
         $(".item").addClass("active");
-        $(this).find("a").html("<i class='fas fa-times'></i>");
+        $(".item").addClass("menu2");
+        //$(this).find("a").html("<i class='fas fa-times'></i>");
       }
     });
   });
 
-  $(function () {
-    $(".item").on("click", function () {
-      $(".toggle").trigger("click");
-    });
-  });
+  // $(function () {
+  //   $(".item").on("click", function () {
+  //     $(".toggle").trigger("click");
+  //   });
+  // });
 
   return (
     <header className='Header-main'>
-      <nav>
+      <nav className='nav'>
         <ul className='menu'>
           <li className='logo'>
             <img src={logo} alt='logo-doctor-jose-trejo' />
@@ -46,21 +49,22 @@ const HeaderNavMenu = () => {
             <a href='#Habilidades'>Conocimientos</a>
           </li>
           <li className='item'>
+            <a href='#Congresos'>Congresos</a>
+          </li>
+          <li className='item'>
             <a href='#Servicios'>Servicios</a>
           </li>
           <li className='item'>
-            <a href='#'>Seguros</a>
+            <a href='#Galeria'>Galeria</a>
           </li>
           <li className='item button'>
             <a href='#Citas'>Citas</a>
           </li>
-          {/* <li className='item button secondary'>
-            <a href='#'>Contacto</a>
-          </li> */}
           <li className='toggle'>
-            <a href='#'>
+            {/* <a href='#'>
               <i className='fas fa-bars'></i>
-            </a>
+            </a> */}
+            <BurguerButton />
           </li>
         </ul>
       </nav>

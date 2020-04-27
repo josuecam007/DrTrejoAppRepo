@@ -6,6 +6,12 @@ import twitterIcon from '../assets/static/footer/Icon awesome-twitter@2x.png';
 import instagramIcon from '../assets/static/footer/Icon awesome-instagram@2x.png';
 import youtubeIcon from '../assets/static/footer/Icon awesome-youtube@2x.png';
 import emailIcon from '../assets/static/footer/Icon material-email@2x.png';
+import axxa from '../assets/static/footer/seguros/axxa.png';
+import banorte from '../assets/static/footer/seguros/Banorte.png';
+import gnp from '../assets/static/footer/seguros/GNP.png';
+import latino from '../assets/static/footer/seguros/latino.png';
+import qualitas from '../assets/static/footer/seguros/qualitas.png';
+import thona from '../assets/static/footer/seguros/Thona.png';
 
 const Footer = () => {
   return (
@@ -22,12 +28,20 @@ const Footer = () => {
               alt='whatsapp_icon'
               className='whatsapp-icon'
             />
-            <span><a href='https://wa.me/5215539822124' target='_blank' >55 39 82 21 24</a></span>
+            <span>
+              <a href='https://wa.me/5215539822124' target='_blank'>
+                55 39 82 21 24
+              </a>
+            </span>
           </div>
           <br />
           <div>
             <img src={emailIcon} alt='email_icon' className='email-icon' />
-            <span><a href='mailto:DR_JOSE_TREJO_BELMONTE@outlook.com'>DR_JOSE_TREJO_BELMONTE@outlook.com</a></span>
+            <span>
+              <a href='mailto:DR_JOSE_TREJO_BELMONTE@outlook.com'>
+                DR_JOSE_TREJO_BELMONTE@outlook.com
+              </a>
+            </span>
           </div>
           <br />
           <span>Citas: Martes y Jueves 15:30hrs. a 20:30hrs.</span>
@@ -62,18 +76,49 @@ const Footer = () => {
               />
             </a>
           </div>
+          <span>Seguros</span>
+          <div>
+            <img
+              src={axxa}
+              alt='youtube_icon'
+              className='seguros'
+            />
+            <img
+              src={banorte}
+              alt='youtube_icon'
+              className='seguros'
+            />
+            <img
+              src={gnp}
+              alt='youtube_icon'
+              className='seguros'
+            />
+          </div>
+          <div>
+            <img
+              src={latino}
+              alt='youtube_icon'
+              className='seguros'
+            />
+            <img
+              src={qualitas}
+              alt='youtube_icon'
+              className='seguros'
+            />
+            <img
+              src={thona}
+              alt='youtube_icon'
+              className='seguros'
+            />
+          </div>
         </div>
         <div>
           <span>Ubicación</span>
           <br />
           <br />
-          <span>
-            KINEMEDICSPORT Área 360: Calle Andrés Terán 1413
-          </span>
+          <span>KINEMEDICSPORT Área 360: Calle Andrés Terán 1413</span>
           <br />
-          <span>
-            Lomas Del Country 44610 Guadalajara,Jalisco
-          </span>
+          <span>Lomas Del Country 44610 Guadalajara,Jalisco</span>
           <br />
           <br />
           <iframe

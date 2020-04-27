@@ -21,51 +21,51 @@ const Servicios = () => {
       <ul className='servicios-container'>
         <li>
           <img src={fracturaLuxacion} alt='imagen_fractura' className='servicios__img' />
-          Fracturas y luxaciones
+          <span>Fracturas y luxaciones</span>
         </li>
         <li>
           <img src={ortopedicos} alt='imagen_fractura' className='servicios__img' />
-          Padecimientos ortopedicos
+          <span>Padecimientos ortopedicos</span>
         </li>
         <li>
           <img src={pieTobillo} alt='imagen_fractura' className='servicios__img' />
-          Pie y tobillo
+          <span>Pie y tobillo</span>
         </li>
         <li>
           <img src={mano} alt='imagen_fractura' className='servicios__img' />
-          Mano y muñeca
+          <span>Mano y muñeca</span>
         </li>
         <li>
           <img src={brazo} alt='imagen_fractura' className='servicios__img' />
-          Lesiones de brazo, antebrazo y codo
+          <span>Lesiones de brazo, antebrazo y codo</span>
         </li>
         <li>
           <img src={pierna} alt='imagen_fractura' className='servicios__img' />
-          Muslo y pierna
+          <span>Muslo y pierna</span>
         </li>
         <li>
           <img src={articulaciones} alt='imagen_fractura' className='servicios__img' />
-          Lesiones articulares
+          <span>Lesiones articulares</span>
         </li>
         <li>
           <img src={rodilla} alt='imagen_fractura' className='servicios__img' />
-          Lesiones de rodilla
+          <span>Lesiones de rodilla</span>
         </li>
         <li>
           <img src={hombro} alt='imagen_fractura' className='servicios__img' />
-          Lesiones de hombro
+          <span>Lesiones de hombro</span>
         </li>
         <li>
           <img src={jugador} alt='imagen_fractura' className='servicios__img' />
-          lesiones deportivas y prescripcion del ejercicio
+          <span>lesiones deportivas y prescripcion del ejercicio</span>
         </li>
         <li>
           <img src={espina} alt='imagen_fractura' className='servicios__img' />
-          Lesiones de la columna incluyendo dolor de origen ciatico
+          <span>Lesiones de la columna incluyendo dolor de origen ciatico</span>
         </li>
         <li>
           <img src={infeccion} alt='imagen_fractura' className='servicios__img' />
-          Infecciones y tumores del sistema musculoesqueletico
+          <span>Infecciones y tumores del sistema musculoesqueletico</span>
         </li>
       </ul>
     </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../assets/styles/components/Experiencia.scss';
-import logoChivas from '../assets/static/logo_chivas.png';
+import logoChivas from '../assets/static/formacion/logo_chivas.png';
 
 
 const Experiencia = () => {

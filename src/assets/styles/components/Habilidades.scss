@@ -1,26 +1,20 @@
 .habilidades-section {
-   background-color: #F0F0F0;
+   //background-color: #F0F0F0;
+   
+   background: linear-gradient(#F0F0F0, white);
+
    text-align: center;
    padding: 20px 0px 20px;
 }
 
 .habilidades-container {
-    // display: grid;
-    // grid-template-columns: repeat(16, 1fr) auto 300px;
-    // margin-top: 5rem;
-    // margin: 2rem; 
-  
-    // grid-gap: 30px;
-    // align-items: stretch;
-    // justify-items: stretch;
+
 
     display: grid;
-    grid-template-columns: 1fr;
-    margin-top: 5rem;
-    margin: 2rem; 
-  
-    grid-gap: 10px;
-    align-items: stretch;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 25px;
+    max-width: 768px;
+    margin: auto !important;
     justify-items: stretch;
 
 }
@@ -33,7 +27,7 @@
     // text-shadow: 0 1px 0 #424242;
     box-shadow: 0 1px 8px 0 rgba(0,0,0,0.08);
     padding: 20px 15px;
-    border-bottom: solid 4px #98ca3f;
+    border-right: solid 4px #f8b118;
 }
 
 .formacion-container li:nth-of-type(1n) {
@@ -47,39 +41,26 @@
 @media screen and (min-width: 768px)  {
 
     .habilidades-section {
-        background-color: #F0F0F0;
+        // background-color: #F0F0F0;
         text-align: center;
         padding: 20px 0px 20px;
      }
      
      .habilidades-container {
-         display: grid;
-         grid-template-columns: repeat(16, 1fr) auto 300px;
-         margin-top: 5rem;
-         margin: 2rem; 
-       
-         grid-gap: 30px;
-         align-items: stretch;
-         justify-items: stretch;
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        grid-gap: 25px;
+        max-width: 1024px;
+        margin: auto !important;
+        justify-items: stretch;
      }
      
      .habilidades-container li {
          background-color: white;
-         //color: #707070;
          border-radius: 10px;
          font-size: 25px;
-         // text-shadow: 0 1px 0 #424242;
          box-shadow: 0 1px 8px 0 rgba(0,0,0,0.08);
          padding: 20px 15px;
      }
-     
-     .habilidades-container li:nth-of-type(odd) {
-         grid-column: 5 / span 5;
-     }
-     
-     .habilidades-container li:nth-of-type(even) {
-         grid-column: 12 / span 5;
-     }
-     
   
   }   

@@ -1,0 +1,48 @@
+#bwrapper {
+	// background:#29afd1;
+	//display:inline-block;
+	// border-radius:500px;
+	margin:0px;
+	//position: relative;
+    //padding:80px;
+    cursor:pointer;
+    align-content: flex-end;
+}
+
+.main-item {
+	width:25px;
+    height:25px;
+    margin-left: 75%;
+	position:relative;
+}
+
+.line {
+	position: absolute;
+	height: 5px;
+    width:100%;
+	background:white;
+	border-radius:10px;
+	transition: all cubic-bezier(0.25, 0.1, 0.28, 1.54) 0.32s;
+}
+
+.line01 {
+	top:19%;
+}
+
+.line02 {
+	top:49%;
+}
+
+.line03 {
+	top:79%;
+}
+
+.bmenu.close .line01 {
+	transform:rotate(45deg);
+	top:49%;
+}
+
+.bmenu.close .line02, .bmenu.close .line03 {
+	transform:rotate(-45deg);
+	top:49%;
+}

@@ -1,10 +1,7 @@
 .servicios_section {
     text-align: left;
-    //background-color: #F0F0F0;
     border: 1px;
     font-size: 18px;
-    //color: white;
-    //text-shadow: black 0.1em 0.1em 0.2em;
     padding: 20px 0px 20px;
   }
 
@@ -29,7 +26,14 @@
     box-shadow: 0 1px 8px 0 rgba(0,0,0,0.08);
     padding: 0px 15px;
     border-right: solid 4px #22D8FF;
+    display: grid;
+    grid-template-columns: 150px auto;
+    justify-items: left;
+    align-items: center;
+
 }
+
+
 
 .servicios-container img {
     // width: 64.6px;
