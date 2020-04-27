@@ -9,18 +9,17 @@
       font-size: 16px;
     }
     //border-bottom: solid 4px #98ca3f;
-    border-bottom: solid 4px #22D8FF
+    border-bottom: solid 4px #22D8FF;
     
   }
- 
+
+  
 /* Basic styling */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
   }
-
-
   body {
     font-family: sans-serif;
   }
@@ -29,8 +28,6 @@
     padding: 5px 20px;
     width: 100%;
     overflow-y: auto
-    
-    
   }
   .logo  {
     display: flex;
@@ -74,8 +71,9 @@
     flex-wrap: wrap;
     justify-content: space-around; /////
     align-items: center;
-   
- 
+    max-width: 1024px;
+    margin: auto;
+    
   }
   .toggle {
     order: 1;
@@ -88,14 +86,10 @@
     text-align: center;
     order: 3;
     display: none;
-
   }
-
   .item.active {
     display: block;
   }
-
-
 
   /* Tablet menu */
 @media all and (min-width: 600px) {

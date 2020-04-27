@@ -9,21 +9,22 @@ const HeaderNavMenu = () => {
     $(".toggle").on("click", function () {
       if ($(".item").hasClass("active")) {
         $(".item").removeClass("active");
-        $(".item").removeClass("menu2");
+        $('.bmenu').removeClass('close');
         //$(this).find("a").html("<i class='fas fa-bars'></i>");
       } else {
         $(".item").addClass("active");
-        $(".item").addClass("menu2");
+        $(".bmenu").addClass("close");
+
         //$(this).find("a").html("<i class='fas fa-times'></i>");
       }
     });
   });
 
-  // $(function () {
-  //   $(".item").on("click", function () {
-  //     $(".toggle").trigger("click");
-  //   });
-  // });
+  $(function () {
+    $(".item").on("click", function () {
+      $(".toggle").trigger("click");
+    });
+  });
 
   return (
     <header className='Header-main'>

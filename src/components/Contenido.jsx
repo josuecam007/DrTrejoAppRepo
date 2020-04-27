@@ -78,7 +78,7 @@ const Contenido = () => {
         <Servicios />
       </section>
 
-      <section id='Galeria'>
+      <section id='Galeria' className='galeria-container'>
         <Galeria />
       </section>
 
