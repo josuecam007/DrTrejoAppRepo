@@ -25,6 +25,20 @@ import joseTrofeoChivas from '../assets/static/galeria/jose-trofeo.jpg';
 import joseTrofeoChivas2 from '../assets/static/galeria/jose-trofeo2.jpg';
 import colegas2 from '../assets/static/galeria/urgencias.jpg';
 
+
+import hospitanZambranoInterior from '../assets/static/galeria/hospitan-zambrano-interior.jpg';
+import inrExterior from '../assets/static/galeria/inr-exterior.jpg';
+import instrumentosA from '../assets/static/galeria/instrumentos-a.jpg';
+import instrumentosB from '../assets/static/galeria/instrumentos-b.jpg';
+import instrumentosC from '../assets/static/galeria/instrumentos-c.jpg';
+import joseColega from '../assets/static/galeria/jose-colega.jpg';
+import joseCompañerosHalcones from '../assets/static/galeria/jose-compañeros-halcones.jpg';
+import joseFichaGdl from '../assets/static/galeria/jose-ficha-gdl.jpg';
+import joseGdl from '../assets/static/galeria/jose-gdl.jpg';
+import joseHalconesFicha from '../assets/static/galeria/jose-halcones-ficha.jpg';
+import joseTraje from '../assets/static/galeria/jose-traje.jpg';
+
+
 const Galeria = () => {
   const imagenes = [
     chivasCampeon2,
@@ -49,6 +63,17 @@ const Galeria = () => {
     joseTrofeoChivas,
     joseTrofeoChivas2,
     colegas2,
+    hospitanZambranoInterior,
+    inrExterior,
+    instrumentosA,
+    instrumentosB,
+    instrumentosC,
+    joseColega,
+    joseCompañerosHalcones,
+    joseFichaGdl,
+    joseGdl,
+    joseHalconesFicha,
+    joseTraje,
   ];
 
   // const onSlideChange = (index) => console.log(`changed to slide ${index}`);
@@ -112,7 +137,7 @@ const Galeria = () => {
 
   return (
     <div className='galeria-section'>
-      <h1>Galeria</h1>
+      <h1>Galería</h1>
       <Carousel itemsToShow={1}>
         {imagenes.map((item, key) => (
           <img src={item} alt="jose-trejo" className="image-size" />

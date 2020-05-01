@@ -41,7 +41,7 @@ const Formacion = () => {
 
         <li type='square'>
           Médico certificado por el Consejo Mexicano de Ortopedia y
-          Traumatología a.c.(CMOT)
+          Traumatología A.C. (CMOT)
         </li>
         <img src={logoCMOT} alt='logo_inr' className='inr-img' />
 

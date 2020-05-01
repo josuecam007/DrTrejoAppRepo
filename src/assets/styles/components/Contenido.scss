@@ -20,12 +20,10 @@
 .main-container__inicio-area {
   position: relative;
   text-align: center;
-  color: white;
-  text-shadow: black 0.1em 0.1em 0.2em;
+  //color: white;
+  //text-shadow: black 0.1em 0.1em 0.2em;
   white-space:nowrap;
-  background-color: #ffffff;
-  
-
+  background: white;
 }
 
 .titulo-banner {
@@ -37,24 +35,56 @@
   font-size: calc(22px + 1.5vw);
   top: 50%;
   left: 50%;
+  
+  //  color: #22D8FF ;
+  //  text-shadow:
+  //      3px 3px 0 #27496D,
+  //    -1px -1px 0 #27496D,  
+  //     1px -1px 0 #27496D,
+  //     -1px 1px 0 #27496D,
+  //      1px 1px 0 #27496D;
+
+  color: white;
+  text-shadow: 2px 2px 4px black, 0 0 25px #27496D, 0 0 5px rgba(39, 73, 109, 0.986);
+
+  // color: #27496D;
+  // text-shadow: 2px 2px 4px white, 0 0 25px #22D8FF, 0 0 5px rgba(51, 109, 39, 0.986);
+
 }
 
 .titulo-banner--texto-secundario {
   font-size: calc(20px + 1vw);
   top: 60%;
   left: 50%;
+
+  color: #22D8FF;
+  text-shadow:
+      2px 2px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
 }
 
 .titulo-banner--texto-terciario {
-  font-size: calc(16px + 1vw);
+  font-size: calc(17px + 1vw);
   top: 69%;
   left: 50%;
+
+  color: #22D8FF;
+  text-shadow:
+      3px 3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
 }
 
 
 .acerca-container {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
+  
 }
 
 

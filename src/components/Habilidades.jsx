@@ -13,16 +13,16 @@ const Habilidades = () => {
           Diplomado presencial en medicina del deporte, ejercicio y actividad física 2016 Universidad Nacional Autónoma de México (UNAM)
         </li>
         <li>
-          AO curso de trauma - principios del manejo conservador y quirurgico de fracturas, Julio 13-16 del 2016
+          AO curso de trauma - principios del manejo conservador y quirúrgico de fracturas, Julio 13-16 del 2016
         </li>
         <li>
-          Advanced Trauma Life Support  American College of Surgeons (ATLS) - Centro de capacitación Dalinde (CECADA) aprobado en Agosto 2 y 3 de 2012
+          Advanced Trauma Life Support  American College of Surgeons (ATLS) - Centro de capacitación Dalinde (CECADA) aprobado en agosto 2 y 3 de 2012
         </li>
         <li>
-          Advanced Cardiovascular Life Support American Heart Association (ACLS) centro de capacitación Dalinde (CECADA) aprobado en Agosto 4 y 5 de 2011
+          Advanced Cardiovascular Life Support American Heart Association (ACLS) centro de capacitación Dalinde (CECADA) aprobado en agosto 4 y 5 de 2011
         </li>
         <li>
-          Acreditación del idioma ingles - Facultad de estudios superiores Zaragoza departamento de lenguas extranjeras en Abril de 2005
+          Acreditación del idioma ingles - Facultad de estudios superiores Zaragoza departamento de lenguas extranjeras en abril de 2005
         </li>
       </ul>
     </div>

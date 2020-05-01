@@ -21,7 +21,7 @@ const Experiencia = () => {
           </dt>
           <dd className='timeline--entry__detail'>
             Médico de traumatología y ortopedia Instituto Nacional de
-            Rehabilitación LGII del 1 de marzo del 2013 al 28 de Febrero de 2017
+            Rehabilitación LGII del 1 de marzo del 2013 al 28 de febrero de 2017
           </dd>
         </dl>
         <dl className='timeline--entry'>

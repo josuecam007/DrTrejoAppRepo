@@ -44,7 +44,7 @@ const Footer = () => {
             </span>
           </div>
           <br />
-          <span>Citas: Martes y Jueves 15:30hrs. a 20:30hrs.</span>
+          <span>Citas: martes y jueves 15:30hrs. a 20:30hrs.</span>
           <br />
           <div>
             <a href='https://www.facebook.com/jose.trejo.3382' target='_blank'>

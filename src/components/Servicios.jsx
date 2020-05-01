@@ -25,7 +25,7 @@ const Servicios = () => {
         </li>
         <li>
           <img src={ortopedicos} alt='imagen_fractura' className='servicios__img' />
-          <span>Padecimientos ortopedicos</span>
+          <span>Padecimientos ortopédicos</span>
         </li>
         <li>
           <img src={pieTobillo} alt='imagen_fractura' className='servicios__img' />
@@ -57,15 +57,15 @@ const Servicios = () => {
         </li>
         <li>
           <img src={jugador} alt='imagen_fractura' className='servicios__img' />
-          <span>lesiones deportivas y prescripcion del ejercicio</span>
+          <span>lesiones deportivas y prescripción del ejercicio</span>
         </li>
         <li>
           <img src={espina} alt='imagen_fractura' className='servicios__img' />
-          <span>Lesiones de la columna incluyendo dolor de origen ciatico</span>
+          <span>Lesiones de la columna incluyendo dolor de origen ciático</span>
         </li>
         <li>
           <img src={infeccion} alt='imagen_fractura' className='servicios__img' />
-          <span>Infecciones y tumores del sistema musculoesqueletico</span>
+          <span>Infecciones y tumores del sistema musculoesquelético</span>
         </li>
       </ul>
     </div>
