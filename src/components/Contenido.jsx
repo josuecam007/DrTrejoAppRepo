@@ -1,6 +1,6 @@
 import React from 'react';
 import '../assets/styles/components/Contenido.scss';
-import inicioImage from '../assets/static/cuerpo_95875774_compressed.jpg';
+import inicioImage from '../assets/static/inicio/cuerpo_95875774_compressed.jpg';
 import drjose from '../assets/static/inicio/DrJose.jpg';
 import Formacion from './Formacion';
 import Experiencia from './Experiencia';
@@ -9,7 +9,6 @@ import Footer from './Footer';
 import Servicios from './Servicios';
 import Congresos from './Congresos';
 import Galeria from './Galeria';
-import imageCongreso from '../assets/static/congresos/congreso-1117902230.jpg';
 
 const Contenido = () => {
   // const sectionStyle = {
