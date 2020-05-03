@@ -130,6 +130,9 @@ const Footer = () => {
             tabindex='0'
           ></iframe>
         </div>
+        <div>
+          <a href="http://anthonycamachodev.com" target='_blank'>© 2020 by anthony camacho dev</a>
+        </div>
       </div>
     </div>
   );

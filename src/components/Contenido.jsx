@@ -23,10 +23,6 @@ const Contenido = () => {
       <section id='Inicio' className='main-container__inicio-area'>
         <figure className='change-ratio'>
           <img src={inicioImage} alt='bannerInicio' className='inicio-area__banner-area' />
-          {/* <img src={logoMarca} alt='logoMarcaCentered' className='logo-centered' /> */}
-          {/* <div className='titulo-banner titulo-banner--texto-principal'>
-            DR. JOSÉ TREJO BELMONTE
-          </div> */}
           <div className='titulo-banner titulo-banner--texto-principal'>
             TRAUMATOLOGÍA Y ORTOPEDIA
             <br />
@@ -34,11 +30,6 @@ const Contenido = () => {
             <br />
             Microcirugía artroscópica
           </div>
-          {/* <div className='titulo-banner titulo-banner--texto-secundario'>
-            Lesiones deportivas Y Microcirugía artroscópica
-          </div> */}
-          {/* <div className='titulo-banner titulo-banner--texto-terciario'>
-          </div> */}
         </figure>
       </section>
 
@@ -46,8 +37,9 @@ const Contenido = () => {
         <div className='text-card'>
           <h1>Acerca de mí</h1>
           <p>
-            {/* SOY UN MÉDICO ESPECIALISTA ENFOCADO EN OFRECER LO MEJOR PARA TI BASADO EN LA CIENCIA, BUSCARE EVITAR LA CIRUGÍA SIEMPRE QUE SEA POSIBLE Y SI LA NECESITAS TE BRINDARE TODA LA INFORMACIÓN PARA QUE TOMES LA MEJOR DECISIÓN, MI PRIORIDAD ES LA HONESTIDAD, EL TRATO HUMANO Y CUIDADO DE MI PACIENTE */}
-            Soy un médico especialista enfocado en ofrecer lo mejor para ti basado en la ciencia, buscare evitar la cirugía siempre que sea posible y si la necesitas te brindare toda la información para que tomes la mejor decisión, mi prioridad es la honestidad, el trato humano y cuidado de mi paciente
+            Soy un médico especialista enfocado en ofrecerte lo mejor para ti y tu familia con base en la ciencia; siempre que sea posible buscaré evitar la cirugía y si la necesitas te brindaré la información necesaria resolviendo todas tus dudas para que tomes la mejor decisión.
+            <br />
+            Mis prioridades y valores son la honestidad, el trato humano y el cuidado de mi paciente. 
           </p>
         </div>
         <div className='img-card'>

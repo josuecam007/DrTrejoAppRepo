@@ -7,22 +7,22 @@ const Habilidades = () => {
       <h1>Conocimientos y habilidades</h1>
       <ul className='habilidades-container'>
         <li>
-          Curso de rodilla nivel III (LATAM) curso avanzado de artroscopia en cadáver NAPLES FLORIDA febrero de 2020
+          Curso de rodilla nivel III (LATAM). Curso avanzado de artroscopia en cadáver. Naples, Florida; febrero de 2020
         </li>
         <li>
-          Diplomado presencial en medicina del deporte, ejercicio y actividad física 2016 Universidad Nacional Autónoma de México (UNAM)
+          Diplomado presencial en medicina del deporte, ejercicio y actividad física, 2016. Universidad Nacional Autónoma de México (UNAM)
         </li>
         <li>
-          AO curso de trauma - principios del manejo conservador y quirúrgico de fracturas, Julio 13-16 del 2016
+          AO Curso de trauma. Principios del manejo  conservador y quirúrgico de fracturas. Del 13 al 16 julio del 2016
         </li>
         <li>
-          Advanced Trauma Life Support  American College of Surgeons (ATLS) - Centro de capacitación Dalinde (CECADA) aprobado en agosto 2 y 3 de 2012
+          Advanced Trauma Life Support American College of Surgeons (ATLS). Centro de Capacitación Dalinde (CECADA)
         </li>
         <li>
-          Advanced Cardiovascular Life Support American Heart Association (ACLS) centro de capacitación Dalinde (CECADA) aprobado en agosto 4 y 5 de 2011
+          Advanced Cardiovascular Life Support American Heart Association (ACLS). Centro de Capacitación Dalinde (CECADA)
         </li>
         <li>
-          Acreditación del idioma ingles - Facultad de estudios superiores Zaragoza departamento de lenguas extranjeras en abril de 2005
+          Acreditación del idioma inglés. Departamento de lenguas extranjeras. Facultad de Estudios Superiores Zaragoza. Abril de 2005
         </li>
       </ul>
     </div>

@@ -17,7 +17,7 @@ const Servicios = () => {
   return (
     <div className='servicios_section'>
       <h1>Servicios</h1>
-      <h1>Padecimientos del paciente adulto y pediatrico:</h1>
+      <h1>Padecimientos del paciente adulto y pediátrico:</h1>
       <ul className='servicios-container'>
         <li>
           <img src={fracturaLuxacion} alt='imagen_fractura' className='servicios__img' />
@@ -57,7 +57,7 @@ const Servicios = () => {
         </li>
         <li>
           <img src={jugador} alt='imagen_fractura' className='servicios__img' />
-          <span>lesiones deportivas y prescripción del ejercicio</span>
+          <span>Lesiones deportivas y prescripción del ejercicio</span>
         </li>
         <li>
           <img src={espina} alt='imagen_fractura' className='servicios__img' />
