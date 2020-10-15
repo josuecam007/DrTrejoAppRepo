@@ -50,7 +50,7 @@ const Contenido = () => {
         </div>
         <div className='text-card'>
           <button type='button' className='contacto-button'>
-            <a href='tel:5215539822124' target='_blank'>
+            <a href='tel:5539822124' target='_blank'>
               Llamanos
               <img
                 src={telefonoIcon}
