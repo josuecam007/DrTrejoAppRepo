@@ -9,6 +9,8 @@ import Footer from './Footer';
 import Servicios from './Servicios';
 import Congresos from './Congresos';
 import Galeria from './Galeria';
+import WhatsappIcon from '../assets/static/footer/Icon awesome-whatsapp@2x.png';
+import telefonoIcon from '../assets/static/footer/telefono.png';
 
 const Contenido = () => {
   // const sectionStyle = {
@@ -33,13 +35,40 @@ const Contenido = () => {
         </figure>
       </section>
 
+      <section className='contacto-container'>
+        <div className='text-card'>
+          <button type='button' className='contacto-button'>
+            <a href='https://wa.me/5215539822124' target='_blank'>
+              Whatsapp
+              <img
+                src={WhatsappIcon}
+                alt='whatsapp_icon'
+                className='whatsapp-icon'
+              />
+            </a>
+          </button>
+        </div>
+        <div className='text-card'>
+          <button type='button' className='contacto-button'>
+            <a href='tel:5215539822124' target='_blank'>
+              Llamanos
+              <img
+                src={telefonoIcon}
+                alt='llamanos'
+                className='whatsapp-icon'
+              />
+            </a>
+          </button>
+        </div>
+      </section>
+
       <section id='Acerca' className='acerca-container'>
         <div className='text-card'>
           <h1>Acerca de mí</h1>
           <p>
-            Soy un médico especialista enfocado en ofrecerte lo mejor para ti y tu familia con base en la ciencia; siempre que sea posible buscaré evitar la cirugía y si la necesitas te brindaré la información necesaria resolviendo todas tus dudas para que tomes la mejor decisión.
+            Soy un médico especialista enfocado en ofrecerte lo mejor para ti y tu familia con base en la ciencia; siempre que sea posible, buscaré evitar la cirugía y si la necesitas, te brindaré la información necesaria, resolviendo todas tus dudas para que tomes la mejor decisión.
             <br />
-            Mis prioridades y valores son la honestidad, el trato humano y el cuidado de mi paciente. 
+            Mis prioridades y valores son la honestidad, el trato humano y el cuidado de mi paciente.
           </p>
         </div>
         <div className='img-card'>

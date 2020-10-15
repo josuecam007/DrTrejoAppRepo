@@ -35,7 +35,7 @@ const Experiencia = () => {
         <dl className='timeline--entry'>
           <dt className='timeline--entry__title'>Grupo Torre Médica</dt>
           <dd className='timeline--entry__detail'>
-            Medico ortopedista en Grupo Torre Médica de marzo de 2018 a febrero de 2019
+            Médico ortopedista en Grupo Torre Médica de marzo de 2018 a febrero de 2019
           </dd>
         </dl>
         <dl className='timeline--entry'>
@@ -77,9 +77,18 @@ const Experiencia = () => {
             Club Deportivo Guadalajara sub 20
           </dt>
           <dd className='timeline--entry__detail'>
+            Médico titular del equipo Club Deportivo Guadalajara sub 20 liga MX
+            enero a junio de 2020
+          </dd>
+        </dl>
+        <dl className='timeline--entry'>
+          <dt className='timeline--entry__title'>
+            Club Deportivo Tapatio
+          </dt>
+          <dd className='timeline--entry__detail'>
             Actualidad
             <br />
-            Médico titular del equipo Club Deportivo Guadalajara sub 20 liga MX
+            Médico titular del equipo Club Tapatio liga de Expansión MX
           </dd>
         </dl>
       </div>

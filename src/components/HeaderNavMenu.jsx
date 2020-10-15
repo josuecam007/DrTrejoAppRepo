@@ -56,7 +56,7 @@ const HeaderNavMenu = () => {
             <a href='#Servicios'>Servicios</a>
           </li>
           <li className='item'>
-            <a href='#Galeria'>Galeria</a>
+            <a href='#Galeria'>Galería</a>
           </li>
           <li className='item button'>
             <a href='#Citas'>Citas</a>

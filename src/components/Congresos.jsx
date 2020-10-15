@@ -6,11 +6,11 @@ const Congresos = () => {
     <div className='congresos-section'>
       <h1>Congresos</h1>
       <ul className='congresos-container'>
-        <li>AMECRA 2019 Guadalajara Jalisco</li>
+        <li>AMECRA 2019 Guadalajara, Jalisco</li>
         <li>XLVI Curso anual de lesiones deportivas en traumatología 2017</li>
         <li>
           Diplomado presencial en medicina del deporte, ejercicio y actividad 
-          física 2016
+          física. 2016
         </li>
         <li>
           AO Curso de trauma. Principios básicos del manejo de fracturas. 

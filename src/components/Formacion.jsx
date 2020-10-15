@@ -6,11 +6,12 @@ import logoUNAM from '../assets/static/formacion/logo_unam.png';
 import logoCMOT from '../assets/static/formacion/logo-cmot-nav.png';
 import logoAMECRA from '../assets/static/formacion/amecra-logo.png';
 import logoChivas from '../assets/static/formacion/logo_chivas_.png';
+import logoTapat from '../assets/static/formacion/tapa.svg';
 
 const Formacion = () => {
   return (
     <div className='formacion-section'>
-      <h1>Formacion</h1>
+      <h1>Formación</h1>
       <ul className='formacion-container'>
         <li type='square'>
           <span>Licenciatura en Médico Cirujano </span>
@@ -52,6 +53,12 @@ const Formacion = () => {
           <span>Médico Titular de Club Deportivo Guadalajara Sub 20 Liga MX</span>
         </li>
         <img src={logoChivas} alt='logo_inr' className='inr-img item-img' />
+
+        <li type='square'>
+          <span>Médico Titular de Club Deportivo Tapatio Liga Expansión MX</span>
+        </li>
+        <img src={logoTapat} alt='logo_inr' className='inr-img item-img' />
+
       </ul>
     </div>
   );
